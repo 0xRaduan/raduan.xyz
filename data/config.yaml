@@ -9,7 +9,7 @@ enableCallouts: true
 enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
-enableRecentNotes: false
+enableRecentNotes: true 
 enableGitHubEdit: true
 enableMermaid: true
 GitHubLink: https://github.com/0xRaduan/raduan.xyz/tree/hugo/content
@@ -17,10 +17,12 @@ search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
-description: This is Raduan's second brain. Welcome :)
+description: Raduan Al-Shedivat Second Brain. 
 page_title: "🧠 Raduan's second brain"
 links:
   - link_name: Twitter
     link: https://twitter.com/0xRaduan
   - link_name: Github
     link: https://github.com/0xRaduan
+  - link_name: LinkedIn
+    link: https://linkedin.com/in/0xRaduan
