@@ -1,4 +1,4 @@
-name: Jacky Zhao
+name: Raduan Al-Shedivat
 enableToc: true
 openToc: false
 enableLinkPreview: true
@@ -17,13 +17,10 @@ search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
-description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
-page_title:
-  "🪴 Quartz 3.3"
+description: This is Raduan's second brain. Welcome :)
+page_title: "🧠 Raduan's second brain"
 links:
   - link_name: Twitter
-    link: https://twitter.com/_jzhao
+    link: https://twitter.com/0xRaduan
   - link_name: Github
-    link: https://github.com/jackyzha0
+    link: https://github.com/0xRaduan
