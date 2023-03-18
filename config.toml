@@ -1,6 +1,6 @@
 baseURL = "https://raduan.xyz/"
 languageCode = "en-us"
-googleAnalytics = "G-XYFD95KB4J"
+googleAnalytics = "G-1F4HP7KDX8"
 relativeURLs = false
 disablePathToLower = true
 ignoreFiles = [
