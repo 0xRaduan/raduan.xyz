@@ -4,8 +4,8 @@ enableToc: false
 date: 2023-04-08
 ---
 # Raduan Al-Shedivat
-> [!short Introduction]
 > I am an engineer and entrepreneur who likes to solve hard problems in the space of AI, Productivity and Distributed Systems. 
+> 
 > In my spare time I focus on self-improvement and researching topics such as: [[Health]], [[Productivity]] and [[Crypto]].
 ### Introduction
 Hi there! My name is Raduan Al-Shedivat, I am 23 year-old engineer and entrepreneur currently residing in [[Amsterdam, Netherlands]]. At the moment I work full-time as an engineer for [[Databricks]].
