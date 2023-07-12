@@ -6,4 +6,4 @@ tags:
 - projects
 ---
 # My Projects
-This page is under construction. I promise I will get back to it :)
+This page is under construction. Currently, I am working https://summate.io alongside my long-time friend – [Valeriy Klyukin](https://twitter.com/vklyukinc) 
