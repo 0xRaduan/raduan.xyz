@@ -3,7 +3,6 @@ title: "About Me"
 enableToc: false
 date: 2023-04-08
 ---
-# Raduan Al-Shedivat
 ### About me
 > Monotheist. Engineer and Entrepreneur. Residing in Amsterdam, Netherlands.
 > 

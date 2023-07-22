@@ -5,7 +5,6 @@ date: 2023-04-08
 tags:
 - projects
 ---
-# My Projects
 ### Current projects
 Currently, I am working on https://summate.io alongside my long-time friend – [Valeriy Klyukin](https://twitter.com/vklyukinc).
 

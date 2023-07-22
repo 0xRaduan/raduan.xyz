@@ -2,7 +2,6 @@
 title: Raduan Al-Shedivat.
 enableToc: false
 ---
-# Raduan Al-Shedivat
 Welcome to my personal website. 
 
 Learn more [[main/about|about me]] or check out [[main/projects|my projects]].
