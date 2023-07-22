@@ -9,7 +9,7 @@ enableCallouts: true
 enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
-enableRecentNotes: true 
+enableRecentNotes: true
 enableGitHubEdit: true
 enableMermaid: true
 GitHubLink: https://github.com/0xRaduan/raduan.xyz/tree/hugo/content
@@ -17,8 +17,8 @@ search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
-description: Raduan Al-Shedivat Second Brain. 
-page_title: "🧠 Raduan's second brain"
+description: Raduan's Al-Shedivat personal page.
+page_title: "Raduan Al-Shedivat"
 links:
   - link_name: Twitter
     link: https://twitter.com/0xRaduan
