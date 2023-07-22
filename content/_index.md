@@ -1,10 +1,14 @@
 ---
-title: 🧠 Raduan's Second Brain.
+title: Raduan Al-Shedivat.
 enableToc: false
 ---
-# Raduan's Second Brain
+# Raduan Al-Shedivat
 Welcome to my personal website. 
 
 Learn more [[main/about|about me]] or check out [[main/projects|my projects]].
 
-This website is designed as a [[public knowledge garden]] and was inspired by [Jackie Zhao](https://jzhao.xyz/)'s version of it. He kindly [open-sourced](https://github.com/jackyzha0/quartz) his work, go check it out.
+You can also read my [[blog/index|blog]].
+
+Links to contact:
+- [twitter.com/0xRaduan](https://twitter.com/0xRaduan) – my most active platform for now. connect with me to collaborate and discuss.
+- [linkedin.com/in/0xRaduan](https://linkedin.com/in/0xRaduan) – work-related communications.
