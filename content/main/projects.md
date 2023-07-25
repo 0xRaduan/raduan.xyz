@@ -14,4 +14,4 @@ Back in 2020 me and a 3 of my friends from university were building an AI fashio
 
 Major learnings:
 - **Fail Fast**: Build quick & get feedback >>> spend time overengineering and get zero feedback
-- **Learn from user interviews**: after 20 interviews with people and our friends, we didn't see much of an issue, but still pursued into building it.
+- **Learn from user interviews**: after 20 interviews with people and our friends, we didn't see much of an issue in figuring out what to wear, but still pursued into building it, instead of pivoting.
