@@ -4,9 +4,9 @@ enableToc: false
 date: 2023-04-08
 ---
 ### About me
-> Monotheist. Engineer and Entrepreneur. Residing in Amsterdam, Netherlands.
+> Monotheist. AI Engineer and Entrepreneur. Currently living in Amsterdam, Netherlands.
 > 
-> Currently building [summate](https://summate.io) to summarize internet and solve information overflow of normal consumers.
+> I am building [summate](https://summate.io) to summarize internet and solve information overflow for knowlege-workers.
 > 
 > Also working at [Databricks](https://databricks.com) as an engineer. Previously worked as CTO/Founding engineer at several startups in AI space.
 
@@ -19,7 +19,6 @@ date: 2023-04-08
 ### Where you can find me?
 Today I am being active on next platforms:
 - [Twitter](https://twitter.com/0xRaduan)
-- [Telegram](https://t.me/notes_by_raduan)
 - [LinkedIn](https://linkedin.com/in/0xRaduan)
 - Discord: `0xRaduan`
 
