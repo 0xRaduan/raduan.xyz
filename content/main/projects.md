@@ -14,8 +14,7 @@ Currently, I am working on [summate.io](https://summate.io). The main idea is si
 
 
 Progress so far[[1](https://x.com/0xRaduan/status/1686409392475000832?s=20)]:
-- around 800 users
-- 15k summaries generated.
+- around 1300 users
 - latest landing and web-app has the slickest design I've ever built ;)
 
 ### Past projects
@@ -25,3 +24,4 @@ Back in 2020 me and a 3 of my friends from university were building an AI fashio
 Major learnings:
 - **Fail Fast**: Build quick & get feedback >>> spend time overengineering and get zero feedback
 - **Learn from user interviews**: after 20 interviews with people and our friends, we didn't see much of an issue in figuring out what to wear, but still pursued into building it, instead of pivoting.
+

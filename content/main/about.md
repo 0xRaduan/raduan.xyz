@@ -22,4 +22,4 @@ Today I am being active on next platforms:
 - [LinkedIn](https://linkedin.com/in/0xRaduan)
 - Discord: `0xRaduan`
 
-Interested in collaborating? Drop me a DM on twitter / discord and I will be happy to respond.
+Interested in collaborating? Drop me a DM on twitter / linkedin/ discord and I will be happy to respond.
