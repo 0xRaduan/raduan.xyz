@@ -3,7 +3,6 @@ title: "About Me"
 enableToc: false
 date: 2023-04-08
 ---
-### About me
 > Monotheist. AI Engineer and Entrepreneur. Currently living in Amsterdam, Netherlands.
 > 
 > I am building [summate](https://summate.io) to summarize internet and solve information overflow for knowlege-workers.
