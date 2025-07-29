@@ -8,15 +8,16 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Raduan Al-Shedivat",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "google",
+      tagId: "G-XVWT99GTED",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "raduan.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -29,26 +30,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#FFFFFF",          // Pure white background
+          lightgray: "#F5F5F5",      // Slightly off-white
+          gray: "#666666",           // Medium gray for subtle elements
+          darkgray: "#1A1A1A",       // Almost black
+          dark: "#000000",           // Pure black for text
+          secondary: "#FF4500",      // Asiimov orange for links/accents
+          tertiary: "#FF6B35",       // Lighter orange for hover states
+          highlight: "rgba(255, 69, 0, 0.15)",  // Orange tint for highlights
+          textHighlight: "#FF450033", // Orange text highlighting
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#0A0A0A",          // Near-black background
+          lightgray: "#1A1A1A",      // Dark gray for cards/sections
+          gray: "#999999",           // Medium gray for text
+          darkgray: "#E0E0E0",       // Light gray for primary text
+          dark: "#FFFFFF",           // Pure white for headers
+          secondary: "#FF6B35",      // Brighter orange for dark mode
+          tertiary: "#FFA500",       // Even brighter orange for hover
+          highlight: "rgba(255, 107, 53, 0.2)", // Orange glow for highlights
+          textHighlight: "#FF6B3544", // Orange text highlighting
         },
       },
     },

@@ -1,3 +1,72 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// Asiimov-inspired theme
+
+// Sharp, clean styling
+body {
+  // High contrast, clean edges
+  font-weight: 400;
+}
+
+// Link styling with Asiimov orange
+a {
+  font-weight: 500;
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: var(--tertiary) !important;
+  }
+  
+  &:visited {
+    color: var(--secondary);
+    opacity: 0.85;
+  }
+}
+
+// Headers with strong contrast
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+// Button styling
+button {
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    border-color: var(--secondary);
+    color: var(--secondary);
+  }
+}
+
+// Code blocks with Asiimov style
+pre {
+  border: 1px solid var(--gray);
+  border-left: 4px solid var(--secondary);
+}
+
+// Selection highlighting
+::selection {
+  background: var(--secondary);
+  color: var(--light);
+}
+
+// Dark mode enhancements
+[saved-theme="dark"] {
+  // Orange glow effect for interactive elements
+  a:hover {
+    text-shadow: 0 0 8px var(--secondary);
+  }
+  
+  // Subtle orange border for focused elements
+  *:focus {
+    outline: 2px solid var(--secondary);
+    outline-offset: 2px;
+  }
+  
+  // Code blocks with orange accent
+  pre {
+    box-shadow: 0 0 20px rgba(255, 107, 53, 0.1);
+  }
+}

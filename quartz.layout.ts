@@ -8,8 +8,9 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      X: "https://x.com/0xRaduan",
+      Github: "https://github.com/0xRaduan",
+      LinkedIn: "https://linkedin.com/in/0xRaduan",
     },
   }),
 }
@@ -44,6 +45,16 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+  ],
+  afterBody: [
+    Component.ConditionalRender({
+      component: Component.RecentNotes({ 
+        title: "Recent Notes",
+        limit: 5,
+        showTags: false,
+      }),
+      condition: (page) => page.fileData.slug === "index",
+    }),
   ],
 }
 
