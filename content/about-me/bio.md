@@ -1,24 +1,25 @@
 ---
-title: "Bio"
+title: Bio
 enableToc: false
-date: 2023-04-08
 ---
-> Monotheist. AI Engineer and Entrepreneur. Currently living in Amsterdam, Netherlands.
+> Monotheist. Software Entrepreneur. Currently residing in Amsterdam, Netherlands.
 > 
-> I am building [summate](https://summate.io) to summarize internet and solve information overflow for knowlege-workers.
+> I have built [Summate](https://summate.io) for every knowledge worker to keep peace of mind in this ever-changing world.
 > 
-> Also working at [Databricks](https://databricks.com) as an engineer. Previously worked as CTO/Founding engineer at several startups in AI space.
+> Also I work at [Databricks](https://databricks.com) as an engineer on AI Dev Tools team. Our team builds tools for other engineers at Databricks, making sure everyone can leverage AI across full SDLC. 
+> 
+> Previously worked as CTO/Founding engineer at several startups in AI space, before it was too hyped of a space.
 
 ### My current focus
-- Building a profitable business.
-- Learning marketing, sales and full-stack development.
-- Continuous, daily, self-improvement: health, knowledge, mindset, discipline, wealth.
+
+- Building a profitable bootstrapped business with as little people as possible.
+- Continuous self-improvement: health, knowledge, resources.
 - Improving thinking through writing.
 
 ### Where you can find me?
+
 Today I am being active on next platforms:
-- [Twitter](https://twitter.com/0xRaduan)
+- [Twitter / X](https://x.com/0xRaduan)
 - [LinkedIn](https://linkedin.com/in/0xRaduan)
 - Discord: `0xRaduan`
-
-Interested in collaborating? Drop me a DM on twitter / linkedin/ discord and I will be happy to respond.
+- Email: `raduan @ thesummary.company`
