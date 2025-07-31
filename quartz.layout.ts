@@ -1,11 +1,12 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import ImageZoom from "./quartz/components/ImageZoom"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [ImageZoom()],
   footer: Component.Footer({
     links: {
       X: "https://x.com/0xRaduan",
