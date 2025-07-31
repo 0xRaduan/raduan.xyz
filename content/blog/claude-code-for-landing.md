@@ -1,5 +1,6 @@
 ---
 title: How To Build Websites With Claude Code That Look Good
+description: "A practical guide to building professional websites with Claude Code - from inspiration to polish. Learn how to avoid 'AI slop' and create something you're proud to sign your name on."
 tags:
   - agentic-coding
   - guide
@@ -49,7 +50,7 @@ Great websites to find inspiration for your new landing page:
 - https://21st.dev/
 	- This is more of a component library, but you can get some inspiration on different parts of the landing and how they will look like
 - https://mobbin.com
-	- generally more established SaaS, nevertheless they have a ton of screen and components which might be valuable.
+	- generally contains more established SaaS, nevertheless they have a ton of screens and components which might be valuable for inspiration purposes.
 - Also I had some templates purchased already, and just seeing how things work there was already a big help!
 
 # 2. Fonts and Color Palette
