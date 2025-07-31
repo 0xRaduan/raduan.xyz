@@ -145,3 +145,5 @@ I think my current knowledge helped me a lot, but the barrier for building this 
 *The final result: a landing page I'm genuinely proud to sign my name on*
 
 Visit [Summate](https://summate.io?ref=raduan.xyz) yourself and let me know your thoughts.
+
+In the next few posts, I will try to cover more details on how to use Claude Code for general coding, as well as all of my pro tips.
