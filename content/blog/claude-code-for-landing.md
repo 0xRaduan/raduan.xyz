@@ -5,7 +5,7 @@ tags:
   - guide
 ---
 
-So, I got asked a question, on how to build non slop websites with claude code that do not look AI generated(or for some, more professional designers, that would be less sloppy websites), and I thought I would write a longer blog on that, because I couldn't really fit the whole process into one tweet...
+So, I got asked a question, on how to build non slop websites with claude code that do not look AI generated (or for some, more professional designers, that would be less sloppy websites), and I thought I would write a longer blog on that, because I couldn't really fit the whole process into one tweet...
 
 You can read more about the product that I've built [here](https://x.com/0xRaduan/status/1948806857772204502), check it out [here](https://summate.io?ref=raduan.xyz), and check my older posts, where I've been sharing bits and pieces throughout the process.
 
@@ -61,7 +61,7 @@ It wrote me a 300+ line README.md file, which looked something like this:
 
 I believe this is a crucial step for building a new landing page, because if you don't have style guidelines, claude code can easily go astray(and it did multiple times for me, even with the guidelines).
 
-Once I had this inspiration, I just asked Claude to tell me best fonts, which aren't that popular, but can be used here. It suggested me 6-10 fonts, that I've tried, and then selected the ones I like.
+Once I had this inspiration, I just asked Claude to tell me the best fonts, which aren't that popular, but can be used here. It suggested me 6-10 fonts, that I've tried, and then selected the ones I like.
 
 I think many people miss out on this step of choosing the right font, because it can make your landing page hit or miss.
 
@@ -138,7 +138,7 @@ Claude Code is extremely powerful. I wouldn't be able to do this without Claude 
 
 Previously I would spend enormous amount of time for something way worse than what I currently have, learning some useless tricks / implementation details.
 
-I think my current knowledge helped me a lot, but the barrier for building this sort of things decreased in the past 12 months.
+I think my current knowledge helped me a lot, but the barrier for building this sort of thing decreased in the past 12 months.
 
 ![[images/claude-landing/summate-landing.png]]
 *The final result: a landing page I'm genuinely proud to sign my name on*
