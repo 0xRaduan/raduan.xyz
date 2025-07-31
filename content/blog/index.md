@@ -1,8 +1,6 @@
 ---
 title: Blog index
 ---
-# Blog Index
-
 ## Personal Reflections
 - [[blog/letters-to-self/index|Letters to Self]] - collection of personal reflections and ideas I try to embody.
 

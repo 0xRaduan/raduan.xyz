@@ -5,7 +5,6 @@ tags:
   - agentic-coding
   - guide
 ---
-
 So, I got asked a question, on how to build non slop websites with claude code that do not look AI generated (or for some, more professional designers, that would be less sloppy websites), and I thought I would write a longer blog on that, because I couldn't really fit the whole process into one tweet...
 
 You can read more about the product that I've built [here](https://x.com/0xRaduan/status/1948806857772204502), check it out [here](https://summate.io?ref=raduan.xyz), and check my older posts, where I've been sharing bits and pieces throughout the process.
