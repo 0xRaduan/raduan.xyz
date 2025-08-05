@@ -1,9 +1,10 @@
 ---
 title: How To Build Websites With Claude Code That Look Good
-description: "A practical guide to building professional websites with Claude Code - from inspiration to polish. Learn how to avoid 'AI slop' and create something you're proud to sign your name on."
+description: A practical guide to building professional websites with Claude Code - from inspiration to polish. Learn how to avoid 'AI slop' and create something you're proud to sign your name on.
 tags:
   - agentic-coding
   - guide
+date: 2025-07-31
 ---
 So, I got asked a question, on how to build non slop websites with claude code that do not look AI generated (or for some, more professional designers, that would be less sloppy websites), and I thought I would write a longer blog on that, because I couldn't really fit the whole process into one tweet...
 
@@ -48,6 +49,7 @@ Great websites to find inspiration for your new landing page:
 	- More of a resource on how to build landing pages in general.
 - https://21st.dev/
 	- This is more of a component library, but you can get some inspiration on different parts of the landing and how they will look like
+	- *Update*: they just shipped Inspiration tab, which is basically similar to other websites. Super helpful.
 - https://mobbin.com
 	- generally contains more established SaaS, nevertheless they have a ton of screens and components which might be valuable for inspiration purposes.
 - Also I had some templates purchased already, and just seeing how things work there was already a big help!
