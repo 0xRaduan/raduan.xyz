@@ -83,7 +83,8 @@
         padding: 0.5em 1em;
         font-family: var(--bodyFont);
         color: var(--dark);
-        font-size: 1.1em;
+        // Slightly smaller search input on overlay
+        font-size: 1rem;
         border: 1px solid var(--lightgray);
 
         &:focus {
@@ -158,6 +159,8 @@
           overflow: hidden;
           font-family: inherit;
           color: var(--dark);
+          // Scale preview text down a touch for legibility density
+          font-size: 0.95rem;
           line-height: 1.5em;
           font-weight: $normalWeight;
           overflow-y: auto;
@@ -204,6 +207,7 @@
 
             & > h3 {
               margin: 0;
+              font-size: 0.95rem;
             }
 
             @media all and not ($mobile) {
@@ -233,6 +237,10 @@
 
             & > p {
               margin-bottom: 0;
+              &.card-description {
+                font-size: 0.85rem;
+                line-height: 1.4;
+              }
             }
           }
         }
