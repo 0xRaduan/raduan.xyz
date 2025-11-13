@@ -4,7 +4,7 @@ description: A practical guide to building professional websites with Claude Cod
 tags:
   - agentic-coding
   - guide
-date: 2025-07-31
+date: 2025-08-05
 ---
 So, I got asked a question, on how to build non slop websites with claude code that do not look AI generated (or for some, more professional designers, that would be less sloppy websites), and I thought I would write a longer blog on that, because I couldn't really fit the whole process into one tweet...
 
