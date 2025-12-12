@@ -1,0 +1,28 @@
+.view-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--darkgray);
+  font-size: 0.9em;
+
+  // Add separator before view count when it follows content-meta
+  &::before {
+    content: "·";
+    margin-right: 4px;
+    opacity: 0.6;
+  }
+
+  .view-count-icon {
+    width: 14px;
+    height: 14px;
+    opacity: 0.8;
+  }
+
+  .view-count-number {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .view-count-label {
+    opacity: 0.8;
+  }
+}
