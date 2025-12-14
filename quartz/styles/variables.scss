@@ -26,8 +26,8 @@ $normalWeight: 400;
 $mobileGrid: (
   templateRows: "auto auto auto auto auto",
   templateColumns: "auto",
-  rowGap: "5px",
-  columnGap: "5px",
+  rowGap: "1rem",
+  columnGap: "1rem",
   templateAreas:
     '"grid-sidebar-left"\
       "grid-header"\
@@ -38,8 +38,8 @@ $mobileGrid: (
 $tabletGrid: (
   templateRows: "auto auto auto auto",
   templateColumns: "#{$sidePanelWidth} auto",
-  rowGap: "5px",
-  columnGap: "5px",
+  rowGap: "1rem",
+  columnGap: "3rem",
   templateAreas:
     '"grid-sidebar-left grid-header"\
       "grid-sidebar-left grid-center"\
@@ -49,8 +49,8 @@ $tabletGrid: (
 $desktopGrid: (
   templateRows: "auto auto auto",
   templateColumns: "#{$sidePanelWidth} auto #{$sidePanelWidth}",
-  rowGap: "5px",
-  columnGap: "5px",
+  rowGap: "1rem",
+  columnGap: "4rem",
   templateAreas:
     '"grid-sidebar-left grid-header grid-sidebar-right"\
       "grid-sidebar-left grid-center grid-sidebar-right"\

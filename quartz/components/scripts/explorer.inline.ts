@@ -248,10 +248,10 @@ async function setupExplorer(currentSlug: FullSlug) {
       }
     }
 
-    const folderIcons = explorer.getElementsByClassName(
-      "folder-icon",
+    const chevronIcons = explorer.getElementsByClassName(
+      "chevron-icon",
     ) as HTMLCollectionOf<HTMLElement>
-    for (const icon of folderIcons) {
+    for (const icon of chevronIcons) {
       icon.addEventListener("click", toggleFolder)
       window.addCleanup(() => icon.removeEventListener("click", toggleFolder))
     }

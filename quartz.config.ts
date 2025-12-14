@@ -30,26 +30,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#FFFFFF",          // Pure white background
-          lightgray: "#F5F5F5",      // Slightly off-white
-          gray: "#666666",           // Medium gray for subtle elements
-          darkgray: "#1A1A1A",       // Almost black
-          dark: "#000000",           // Pure black for text
-          secondary: "#FF4500",      // Asiimov orange for links/accents
-          tertiary: "#FF6B35",       // Lighter orange for hover states
-          highlight: "rgba(255, 69, 0, 0.15)",  // Orange tint for highlights
-          textHighlight: "#FF450033", // Orange text highlighting
+          light: "#F7F7F4",          // Warm off-white background
+          lightgray: "#EEEDEA",      // Slightly darker for cards
+          gray: "#26251E",           // Dark warm gray for borders
+          darkgray: "#26251E",       // Dark warm gray for text
+          dark: "#1A1914",           // Near-black for headers
+          secondary: "#F54E00",      // Vibrant orange
+          tertiary: "#D94400",       // Darker orange for hover
+          highlight: "rgba(245, 78, 0, 0.1)",  // Orange tint for highlights
+          textHighlight: "rgba(245, 78, 0, 0.15)",
         },
         darkMode: {
-          light: "#0A0A0A",          // Near-black background
-          lightgray: "#1A1A1A",      // Dark gray for cards/sections
-          gray: "#999999",           // Medium gray for text
-          darkgray: "#E0E0E0",       // Light gray for primary text
-          dark: "#FFFFFF",           // Pure white for headers
-          secondary: "#FF6B35",      // Brighter orange for dark mode
-          tertiary: "#FFA500",       // Even brighter orange for hover
-          highlight: "rgba(255, 107, 53, 0.2)", // Orange glow for highlights
-          textHighlight: "#FF6B3544", // Orange text highlighting
+          light: "#1B1913",          // Warm dark background
+          lightgray: "#2A2820",      // Slightly lighter for cards
+          gray: "#666660",           // Medium warm gray
+          darkgray: "#CDCCC8",       // Light warm gray for text
+          dark: "#EDECEC",           // Off-white for headers
+          secondary: "#F54E00",      // Vibrant orange (same as light)
+          tertiary: "#FF6A2A",       // Lighter orange for hover
+          highlight: "rgba(245, 78, 0, 0.12)", // Orange glow
+          textHighlight: "rgba(245, 78, 0, 0.18)",
         },
       },
     },

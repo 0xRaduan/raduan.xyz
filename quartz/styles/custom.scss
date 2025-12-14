@@ -87,14 +87,15 @@ article p > img + em {
   margin-bottom: 1rem;
 }
 
-// Image zoom overlay
+// Image zoom overlay - Desktop modal style
 .image-zoom-overlay {
+  --overlay-opacity: 1;
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, calc(0.9 * var(--overlay-opacity)));
   backdrop-filter: blur(10px);
   z-index: 9999;
   display: flex;
@@ -104,12 +105,12 @@ article p > img + em {
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
-  
+
   &.active {
     opacity: 1;
     pointer-events: all;
   }
-  
+
   .image-zoom-container {
     display: flex;
     flex-direction: column;
@@ -118,11 +119,11 @@ article p > img + em {
     transform: scale(0.9);
     transition: transform 0.3s ease;
   }
-  
+
   &.active .image-zoom-container {
     transform: scale(1);
   }
-  
+
   img {
     max-width: 90vw;
     max-height: 80vh;
@@ -132,7 +133,7 @@ article p > img + em {
     padding: 0;
     cursor: auto;
   }
-  
+
   .image-zoom-caption {
     color: rgba(255, 255, 255, 0.9);
     font-size: 1rem;
@@ -143,15 +144,89 @@ article p > img + em {
     border-radius: 8px;
     backdrop-filter: blur(10px);
   }
+
+  // Mobile drawer/bottom sheet style (Vaul-inspired)
+  &.mobile-drawer {
+    align-items: flex-end;
+    justify-content: flex-end;
+    background: rgba(0, 0, 0, calc(0.6 * var(--overlay-opacity)));
+
+    .image-drawer {
+      width: 100%;
+      max-height: 85vh;
+      background: var(--light);
+      border-radius: 1.5rem 1.5rem 0 0;
+      display: flex;
+      flex-direction: column;
+      transform: translateY(100%);
+      transition: transform 0.4s cubic-bezier(0.32, 0.72, 0, 1);
+      overflow: hidden;
+      touch-action: none;
+
+      // Subtle shadow at top
+      box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.15);
+    }
+
+    &.active .image-drawer {
+      transform: translateY(0);
+    }
+
+    .drawer-handle {
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      cursor: grab;
+      flex-shrink: 0;
+
+      &:active {
+        cursor: grabbing;
+      }
+    }
+
+    .drawer-handle-bar {
+      width: 3rem;
+      height: 0.25rem;
+      background: var(--lightgray);
+      border-radius: 9999px;
+    }
+
+    .drawer-image-container {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 1rem;
+      overflow: hidden;
+      min-height: 0;
+
+      img {
+        max-width: 100%;
+        max-height: 60vh;
+        object-fit: contain;
+        border-radius: 0.75rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        border: 1px solid var(--lightgray);
+        padding: 0;
+        margin: 0;
+        cursor: auto;
+      }
+    }
+
+    .drawer-caption {
+      padding: 1rem 1.5rem 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--darkgray);
+      flex-shrink: 0;
+
+      // Safe area for phones with home indicator
+      padding-bottom: calc(2rem + env(safe-area-inset-bottom, 0px));
+    }
+  }
 }
 
 // Dark mode enhancements
 [saved-theme="dark"] {
-  // Orange glow effect for interactive elements
-  a:hover {
-    text-shadow: 0 0 8px var(--secondary);
-  }
-  
   // Subtle orange border for focused elements
   *:focus {
     outline: 2px solid var(--secondary);

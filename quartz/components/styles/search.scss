@@ -148,9 +148,11 @@
         }
 
         & .highlight {
-          background: color-mix(in srgb, var(--tertiary) 60%, rgba(255, 255, 255, 0));
-          border-radius: 5px;
+          background: color-mix(in srgb, var(--secondary) 15%, transparent);
+          border-radius: 3px;
           scroll-margin-top: 2rem;
+          padding: 0.1em 0.15em;
+          margin: -0.1em -0.15em;
         }
 
         & > .preview-container {
@@ -202,7 +204,7 @@
             &:hover,
             &:focus,
             &.focus {
-              background: var(--lightgray);
+              background: color-mix(in srgb, var(--lightgray) 50%, var(--light));
             }
 
             & > h3 {
