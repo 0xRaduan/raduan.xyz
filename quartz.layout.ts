@@ -28,13 +28,8 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ArticleTitle(),
-    Component.Flex({
-      components: [
-        { Component: Component.ContentMeta() },
-        { Component: Component.ViewCount({ apiBaseUrl: VIEW_COUNT_API_URL }) },
-      ],
-      gap: "0",
-    }),
+    Component.ContentMeta(),
+    Component.ViewCount({ apiBaseUrl: VIEW_COUNT_API_URL }),
     Component.TagList(),
   ],
   left: [
