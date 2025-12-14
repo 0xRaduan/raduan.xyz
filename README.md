@@ -1,18 +1,43 @@
-# Quartz v4
+# raduan.xyz
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Personal website and digital garden built with Quartz v4.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+## Stack
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+- **Static Site Generator**: Quartz v4.5.1
+- **Hosting**: GitHub Pages
+- **Domain**: raduan.xyz
+- **Analytics**: Custom Cloudflare Worker + KV (privacy-friendly view counter)
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+## Quick Start
 
-## Sponsors
+```bash
+# Install dependencies
+bun install
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+# Start local development server
+bun run quartz build --serve
+
+# Build for production
+bun run quartz build
+```
+
+## Project Structure
+
+- `content/` - All markdown content
+  - `content/blog/` - Blog posts
+  - `content/main/` - Main pages (about, projects)
+  - `content/private/` - Ignored in builds
+- `quartz/` - Quartz framework and custom components
+- `quartz.config.ts` - Site configuration
+- `quartz.layout.ts` - Layout configuration
+- `cloudflare-worker/` - View counter worker
+
+## View Counter
+
+See [CLAUDE.md](./CLAUDE.md) for detailed documentation on the view counter architecture.
+
+## Documentation
+
+- [Quartz Documentation](https://quartz.jzhao.xyz/)
+- [Join Quartz Discord](https://discord.gg/cRFFHYye7t)
