@@ -53,8 +53,8 @@ Cloudflare KV (VIEW_COUNTS namespace)
 
 ### How It Works
 1. Page loads → JS calls worker with `?increment=true`
-2. Worker hashes `IP:User-Agent` → checks if seen in last 30 days
-3. If new visitor: increment count, store hash with 30-day TTL
+2. Worker hashes `IP:User-Agent` → checks if seen in last 7 days
+3. If new visitor: increment count, store hash with 7-day TTL
 4. Return count → displayed next to read time
 
 ### Deploy Worker Changes

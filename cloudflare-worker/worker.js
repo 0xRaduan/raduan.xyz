@@ -29,8 +29,8 @@ function getCorsHeaders(request) {
   };
 }
 
-// TTL for visitor tracking (30 days in seconds)
-const VISITOR_TTL = 30 * 24 * 60 * 60;
+// TTL for visitor tracking (7 days in seconds)
+const VISITOR_TTL = 7 * 24 * 60 * 60;
 
 /**
  * Generate a hash from visitor identifiers
