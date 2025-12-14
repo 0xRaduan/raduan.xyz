@@ -1,0 +1,30 @@
+.content-meta {
+  display: inline !important;
+}
+
+.view-count {
+  display: none; // Hidden by default, shown via JS when count > 0
+  align-items: center;
+  gap: 4px;
+  color: var(--darkgray);
+  margin-left: 6px;
+
+  &::before {
+    content: "·";
+    margin-right: 6px;
+    color: var(--darkgray);
+  }
+
+  .view-count-icon {
+    opacity: 0.85;
+    margin-right: 2px;
+  }
+
+  .view-count-number {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .view-count-label {
+    margin-left: 1px;
+  }
+}
