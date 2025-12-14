@@ -4,7 +4,7 @@ import ImageZoom from "./quartz/components/ImageZoom"
 
 // Configure the view count API URL
 // After deploying your Cloudflare Worker, update this URL
-const VIEW_COUNT_API_URL = "https://raduan-view-counter.YOUR_SUBDOMAIN.workers.dev"
+const VIEW_COUNT_API_URL = "https://raduan-view-counter.raduan.workers.dev"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -33,7 +33,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ContentMeta() },
         { Component: Component.ViewCount({ apiBaseUrl: VIEW_COUNT_API_URL }) },
       ],
-      gap: "0.5rem",
+      gap: "0",
     }),
     Component.TagList(),
   ],

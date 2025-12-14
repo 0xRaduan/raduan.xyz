@@ -1,12 +1,16 @@
 document.addEventListener("nav", async () => {
-  const viewCountEl = document.querySelector(".view-count")
+  const viewCountEl = document.querySelector(".view-count") as HTMLElement | null
   if (!viewCountEl) return
 
   const apiBaseUrl = viewCountEl.getAttribute("data-api-url")
   if (!apiBaseUrl) return
 
   const countEl = viewCountEl.querySelector("[data-view-count]")
+  const labelEl = viewCountEl.querySelector(".view-count-label")
   if (!countEl) return
+
+  // Hide initially until we have data
+  viewCountEl.style.display = "none"
 
   // Get the current page slug from the URL
   const slug = window.location.pathname.replace(/^\/+|\/+$/g, "") || "index"
@@ -25,11 +29,19 @@ document.addEventListener("nav", async () => {
     }
 
     const data = await response.json()
-    countEl.textContent = formatCount(data.count)
+
+    // Only show if count > 0
+    if (data.count > 0) {
+      countEl.textContent = formatCount(data.count)
+      // Fix singular/plural
+      if (labelEl) {
+        labelEl.textContent = data.count === 1 ? "view" : "views"
+      }
+      viewCountEl.style.display = "inline-flex"
+    }
   } catch (error) {
     console.error("Failed to fetch view count:", error)
-    // Keep the placeholder or show error state
-    countEl.textContent = "—"
+    // Keep hidden on error
   }
 })
 

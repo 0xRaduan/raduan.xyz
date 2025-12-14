@@ -21,8 +21,8 @@ export default ((opts?: Partial<ViewCountOptions>) => {
       <span class={classNames(displayClass, "view-count")} data-api-url={options.apiBaseUrl}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
+          width="14"
+          height="14"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -34,8 +34,8 @@ export default ((opts?: Partial<ViewCountOptions>) => {
           <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
           <circle cx="12" cy="12" r="3" />
         </svg>
-        <span class="view-count-number" data-view-count>—</span>
-        <span class="view-count-label"> views</span>
+        <span class="view-count-number" data-view-count></span>
+        <span class="view-count-label">views</span>
       </span>
     )
   }

@@ -12,12 +12,22 @@
  *   ?increment=true - Increment the count (default: false, just returns count)
  */
 
-const CORS_HEADERS = {
-  'Access-Control-Allow-Origin': 'https://raduan.xyz',
-  'Access-Control-Allow-Methods': 'GET, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type',
-  'Content-Type': 'application/json',
-};
+const ALLOWED_ORIGINS = [
+  'https://raduan.xyz',
+  'http://localhost:8080',
+  'http://localhost:3000',
+];
+
+function getCorsHeaders(request) {
+  const origin = request.headers.get('Origin');
+  const allowedOrigin = ALLOWED_ORIGINS.includes(origin) ? origin : ALLOWED_ORIGINS[0];
+  return {
+    'Access-Control-Allow-Origin': allowedOrigin,
+    'Access-Control-Allow-Methods': 'GET, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type',
+    'Content-Type': 'application/json',
+  };
+}
 
 // TTL for visitor tracking (30 days in seconds)
 const VISITOR_TTL = 30 * 24 * 60 * 60;
@@ -47,17 +57,18 @@ function normalizeSlug(slug) {
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+    const corsHeaders = getCorsHeaders(request);
 
     // Handle CORS preflight
     if (request.method === 'OPTIONS') {
-      return new Response(null, { headers: CORS_HEADERS });
+      return new Response(null, { headers: corsHeaders });
     }
 
     // Only allow GET requests
     if (request.method !== 'GET') {
       return new Response(JSON.stringify({ error: 'Method not allowed' }), {
         status: 405,
-        headers: CORS_HEADERS,
+        headers: corsHeaders,
       });
     }
 
@@ -66,7 +77,7 @@ export default {
     if (!pathMatch) {
       return new Response(JSON.stringify({ error: 'Not found' }), {
         status: 404,
-        headers: CORS_HEADERS,
+        headers: corsHeaders,
       });
     }
 
@@ -95,28 +106,28 @@ export default {
           ]));
 
           return new Response(JSON.stringify({ slug, count: newCount, unique: true }), {
-            headers: CORS_HEADERS,
+            headers: corsHeaders,
           });
         }
 
         // Returning visitor - just return current count
         const count = parseInt(await env.VIEW_COUNTS.get(countKey) || '0', 10);
         return new Response(JSON.stringify({ slug, count, unique: false }), {
-          headers: CORS_HEADERS,
+          headers: corsHeaders,
         });
       }
 
       // Just return the count without incrementing
       const count = parseInt(await env.VIEW_COUNTS.get(countKey) || '0', 10);
       return new Response(JSON.stringify({ slug, count }), {
-        headers: CORS_HEADERS,
+        headers: corsHeaders,
       });
 
     } catch (error) {
       console.error('Error:', error);
       return new Response(JSON.stringify({ error: 'Internal server error' }), {
         status: 500,
-        headers: CORS_HEADERS,
+        headers: corsHeaders,
       });
     }
   },
